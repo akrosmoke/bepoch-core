@@ -184,16 +184,6 @@ they are injected at runtime. The repo ships only `.env.example`.
 | `EPOCH_REGISTRY_ADDRESS`    | —         | anchor contract on Base            |
 | `ANCHOR_SIGNER_PRIVATE_KEY` | —         | server signer — **keep secret**    |
 
-## Roadmap
-
-- [x] Epoch domain model + lifecycle (`draft → signed → anchored`)
-- [x] Model registry with latest-epoch rollup
-- [x] On-chain proof verification + lineage walk
-- [ ] Pluggable persistence (Postgres / Prisma)
-- [ ] Live Base anchoring via `viem` + registry contract
-- [ ] EU AI Act technical-file export from epoch metadata
-- [ ] Staked attestation (validators co-sign records)
-
 ## License
 
 MIT — see [LICENSE](./LICENSE).
